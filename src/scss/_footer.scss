@@ -1,0 +1,56 @@
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subfooter {
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 0;
+    text-align: center;
+    .phone {
+        margin-bottom: 1.5rem;
+        font-size: 1.5625rem; // 25px
+    }
+}
+// FOOTER
+.site-footer {
+    background-color: $secondaryColor;
+    color: #fff;
+
+    .copyright {
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .netgain {
+        font-family: Arial, sans-serif;
+        font-size: 1.6rem;
+    }
+}
+
+.flex-footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding-top: 1.5rem;
+    .f-item {
+        flex: 1 0 50%;
+        padding-bottom: 1.5rem;
+    }
+}
+.netgain {
+    text-align: right;
+}
+.footer-contact-container {
+    text-align: center;
+    background-color: $darkGray;
+    color: #fff;
+    padding: 60px 0px;
+    h3{
+      font-size: 3rem;
+    }
+
+}

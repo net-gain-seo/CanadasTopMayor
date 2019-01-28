@@ -1,0 +1,243 @@
+html{
+      font-size: $htmlfs;
+      overflow-y: scroll;
+}
+body {
+    font-family: $fontLato;
+    font-size: $fsBody;
+    background-color: #fff;
+    color: $textColor;
+    overflow-x: hidden;
+}
+.no-scroll {
+    overflow: hidden;
+    // position: fixed;
+    // height: 100%;
+    // width: 100%;
+    #openNavOverlay {
+        display: block;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+        color: $primaryColor;
+    }
+}
+h1, .h1 {
+    font-family: $fontAnton;
+    font-size: $fsH1;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+h2,
+h3 {
+    font-family: $fontAnton;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+h2, .h2 {
+    font-size: $fsH2;
+    font-weight: 600;
+}
+h3 {
+    font-size: $fsH3;
+}
+h4{
+  font-size: 2rem;
+  font-family: $fontAnton;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+p{
+  font-size: $fsBody;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-family: arial, 'Montserrat', sans-serif;
+}
+.title {
+    font-family: $fontAnton;
+    font-size: $fsTitle;
+}
+.txt-primary {
+    color: $primaryColor;
+}
+.txt-secondary {
+    color: $secondaryColor;
+}
+.bg-light {
+    background-color: $lightGray;
+}
+#openNavOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99995;
+    display: none;
+    background-color: rgba(black,0.5);
+    overflow: hidden;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 0rem;
+    padding-left: 25px;
+}
+li{
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+.padding100{
+  padding: 100px 0px;
+}
+.padding90{
+  padding: 90px 0px;
+}
+.padding80{
+  padding: 80px 0px;
+}
+.padding70{
+  padding: 70px 0px;
+}
+.padding60{
+  padding: 60px 0px;
+}
+.padding50{
+  padding: 50px 0px;
+}
+.padding40{
+  padding: 40px 0px;
+}
+.padding30{
+  padding: 30px 0px;
+}
+.padding25{
+  padding: 25px 0px;
+}
+.padding20{
+  padding: 20px 0px;
+}
+.padding10{
+  padding: 10px 0px;
+}
+.padding0{
+  padding: 0px;
+}
+.margin0{
+  margin: 0px;
+}
+.paddingtop0{
+  padding-top: 0px;
+}
+.paddingbottom0{
+  padding-bottom: 0px;
+}
+.paddingtop25{
+  padding-top: 25px;
+}
+.paddingbottom25{
+  padding-bottom: 25px;
+}
+.paddingright0{
+  padding-right: 0px;
+}
+.paddingleft0{
+  padding-left: 0px;
+}
+.marginb{
+  margin-bottom: 2.5rem;
+}
+.marginT100{
+  margin-top: 100px;
+}
+.marginT120{
+  margin-top: 120px;
+}
+.marginT150{
+  margin-top: 150px;
+}
+.paddingR40{
+  padding-right: 40px;
+}
+.semibold{
+  font-weight: 500;
+}
+.normalfont{
+  font-weight: normal;
+}
+.bold{
+  font-weight: bold;
+}
+.whiteText{
+  color: white!important;
+}
+.blackText{
+  color: black!important;
+}
+.primaryColor{
+  color: $primaryColor;
+}
+.text-align-center{
+  text-align: center;
+}
+.largetitle{
+  font-size: 7rem;
+}
+.largefont p{
+    font-size: $fsH2;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+.button{
+  background-color: $primaryColor;
+  color: white;
+  border: 0px;
+  padding: 20px 50px;
+  line-height: 1;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: $fontAnton;
+}
+.button:hover{
+  background-color: $secondaryColor;
+  color: white;
+}
+
+.button.invert{
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 20px 50px;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 2.5rem;
+  cursor: pointer;
+  font-family: $fontAnton;
+}
+.button.invert:hover{
+  background-color: white;
+  color: $secondaryColor;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #666;
+    width: 100%;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
