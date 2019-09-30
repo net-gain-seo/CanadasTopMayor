@@ -31,13 +31,17 @@
                         <i class="fa fa-bars"></i>
                         <span>MENU</span>
                     </a>
+                    <!--
                     <a href="<?php echo home_url(); ?>/nominate-now/" class="nav-contact">
                         <i class="fa fa-envelope"></i>
                         <span>NOMINATE NOW</span>
                     </a>
+                  -->
                 </div>
                 <nav id="mainNav" class="mobile-nav" role="navigation">
+                  <!--
                   <a href="<?php echo home_url(); ?>/nominate-now/" class="get-quote">NOMINATE NOW</a>
+                -->
                    <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '' ) ); ?>
                 </nav>
             </div>
