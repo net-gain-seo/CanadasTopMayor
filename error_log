@@ -2,3 +2,14 @@
 [09-Jan-2018 19:57:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bins4shredding/public_html/wp-content/themes/ngb4s/index.php on line 2
 [09-Jan-2018 19:57:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bins4shredding/public_html/wp-content/themes/ngb4s/index.php on line 2
 [09-Jan-2018 19:57:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bins4shredding/public_html/wp-content/themes/ngb4s/index.php on line 2
+[26-Jul-2019 16:56:57 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php on line 2
+[09-Sep-2019 12:55:12 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php on line 2
+[16-Oct-2019 16:41:25 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php on line 2
+[15-Nov-2019 14:41:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php on line 2
+[15-Nov-2019 14:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/topmayor/public_html/wp-content/themes/netstrap-canadas-top-mayor/index.php on line 2

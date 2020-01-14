@@ -25,7 +25,7 @@ img {
 }
 
 a {
-    color: #0000FF;
+    color: #AA1211;
     text-decoration: none !important;
     transition: color 0.2s ease-in-out;
     &:hover {
@@ -252,4 +252,17 @@ tbody tr:nth-child(odd) {
 
 .thermometer svg{
   float:right !important;
+}
+
+.payPallFormWrapper{
+  form{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+  }
+}
+
+img.aligncenter{
+  margin: 0 auto;
+  display: block;
 }

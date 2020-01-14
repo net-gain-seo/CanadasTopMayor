@@ -13,8 +13,13 @@
    ?>
    <div class="container mast-overlay">
        <?php
-              echo '<h1 class="titleText">Blog</h1>';
-              echo '<p>#Canada’sTopMayorAward</p>';
+              if(is_category(6)){
+                echo '<h1 class="titleText">Welcome to the<br />Elevate Podcast</h1>';
+                echo '<p>#Canada’sTopMayorAward</p>';
+              }else{
+                echo '<h1 class="titleText">Blog</h1>';
+                echo '<p>#Canada’sTopMayorAward</p>';
+              }
        ?>
    </div>
 </div>
